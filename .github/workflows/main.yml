@@ -35,8 +35,6 @@ env:
   IMAGE_TAG: ${{ github.sha }}
 
 jobs: 
-    JOB 1: Build React Application
-     
   build:
     name: Build React Application
     runs-on: ubuntu-latest
